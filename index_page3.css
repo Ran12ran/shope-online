@@ -1,0 +1,76 @@
+@import url('https //fonts.googleapis.com/css family=poppins');
+
+body{
+  background-color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 35px;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+
+h3{
+    font-size: 30px;
+    color: rgb(74, 51, 23);
+    font-family: sans-serif;
+    pointer-events: none;
+    transition: .5s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  .card img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    margin-bottom:10px;
+    filter: drop-shadow(0 10px 10px #0009);
+
+  }
+  .card .card-body p{
+    font-size: 1em;
+    color:rgb(250, 242, 229);
+  
+  }
+  .card .card-body h5{
+    font-size: 20px;
+    color:rgb(122, 94, 49);
+    margin-bottom:10px;
+    position:relative;
+  
+  }
+  .card{
+    display: grid;
+    float: right;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgba(190, 165, 134, 0.587);
+    grid-template-columns:repeat(4.1fr) ;
+    border: none;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .card .card-body button{
+
+    width: 35%;
+    height: 25%;
+    object-fit: cover;
+    border-radius:10% ;
+    border:none;
+    color: #000;
+    background-color: rgb(250, 242, 229);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .card .card-body button :hover{
+   background: #0009;
+  }
